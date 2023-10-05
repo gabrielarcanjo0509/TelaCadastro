@@ -1,0 +1,27 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #212E46;
+}
+
+body{ 
+    background-color: #212E46 !important;
+    color: #FFF !important;
+}
+
+.cabecalho img{
+    width: 15rem;
+    height: 15rem;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 1rem;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid #46CBEE;
+}
